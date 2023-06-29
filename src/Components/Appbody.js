@@ -23,7 +23,7 @@ export default class Appbody extends Component {
             try {
                 let unprocessedResponse = await (fetch(url));
                 if (!unprocessedResponse.ok) {
-                    throw new Error("Maximum limit for the day reached");
+                    throw new Error(unprocessedResponse);
                 }
                 let response = await (unprocessedResponse.json());
                 this.setState({

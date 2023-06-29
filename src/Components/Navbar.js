@@ -6,7 +6,7 @@ export default class Navbar extends Component {
       <>
         <nav className='flex items-center bg-white fixed w-full h-16  font-myFont justify-evenly font-medium z-50'>
           <ul className='flex space-x-5'>
-            <Link to="/"><li className="navbtn">Top-headlines</li></Link>
+            <Link to="/myNewsApp"><li className="navbtn">Top-headlines</li></Link>
             <Link to="/business"><li className="navbtn">Business</li></Link>
             <Link to="/entertainment"><li className="navbtn">Entertainment</li></Link>
             <Link to="/health"><li className='navbtn'>Health</li></Link>

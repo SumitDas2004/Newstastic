@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import React, { Component } from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Appbody from './Components/Appbody';
 // import Prevnextbutton from './Components/Prevnextbutton';
 
@@ -10,7 +10,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route exact path='sports' element={<Appbody category={'sports'} key='Sports' heading='Sports'/>} />
@@ -19,9 +19,9 @@ export default class App extends Component {
           <Route exact path='health' element={<Appbody category={'health'}  key='Health' heading='Health'/>} />
           <Route exact path='science' element={<Appbody category={'science'}  key='Science' heading='Science'/>} />
           <Route exact path='entertainment' element={<Appbody category={'entertainment'}  key='Entertainment' heading='Entertainment'/>} />
-          <Route exact path='/' element={<Appbody category={''}  key='Top-Headlines' heading='Top-Headlines'/>} />
+          <Route exact path='myNewsApp' element={<Appbody category={''}  key='Top-Headlines' heading='Top-Headlines'/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }

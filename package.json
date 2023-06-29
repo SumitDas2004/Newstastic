@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/SumitDas2004/myNewsApp",
+  "homepage": "https://SumitDas2004.github.io/myNewsApp",
   "name": "my-news-app",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
