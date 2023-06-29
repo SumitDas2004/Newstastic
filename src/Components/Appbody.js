@@ -22,9 +22,6 @@ export default class Appbody extends Component {
         let fetchUrl = async () => {
             try {
                 let unprocessedResponse = await (fetch(url));
-                if (!unprocessedResponse.ok) {
-                    throw new Error(unprocessedResponse);
-                }
                 let response = await (unprocessedResponse.json());
                 this.setState({
                     article: response.articles,
