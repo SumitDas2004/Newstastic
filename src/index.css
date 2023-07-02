@@ -3,5 +3,12 @@
 @tailwind utilities;
 .navbtn{
     @apply
-    px-4 h-16 text-gray-700 hover:text-navButtons active:text-navButtons flex items-center cursor-pointer transition-all; 
+    h-16 px-5 text-gray-700 hover:text-navButtons active:text-navButtons flex items-center cursor-pointer transition-all; 
+}
+
+@media (max-width:1000px){
+    .navbtn{
+        @apply
+        px-0 h-16 text-gray-700 hover:text-navButtons active:text-navButtons flex justify-center cursor-pointer transition-all; 
+    }
 }
