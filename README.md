@@ -26,6 +26,7 @@ Developing this project has benifited me in various way. i.e,
 6. Better understanding of of git and how to use git in real projects.
 7. Using environment variables in react.
    
-
+A demo video of the project.
+https://youtu.be/5DjUWbdQoZo
 
 Disclaimer: News API supports only localhost in development plan. Hence this project could not be hoseted in github pages.
