@@ -62,7 +62,7 @@ const Appbody = (props) => {
     }
     return (
         <section className="w-full bg-gray-300 rounded-3xl rounded-b-none min-h-[90vh]">
-            <section className=' font-myFont font-bold text-2xl mx-auto py-10 w-max'>{props.heading}</section>
+            <section className=' font-myFont font-bold text-2xl mx-auto py-10 w-max'>{"Newstastic: "+props.heading}</section>
             {loading && <Spinner />}
             {!loading && <Newscontainer article={article} totalResults={totalResults} totalVisited={totalVisited} page={page} loading={loading} q={q} fetchnext={fetchnext} />}
         </section>

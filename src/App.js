@@ -7,12 +7,13 @@ import LoadingBar from 'react-top-loading-bar';
 
 
 const App = () => {
-  const [progress, setprogress] = useState(0)
+  const [progress, setprogress] = useState(0);
   const setProgress = (num) => {
     setprogress(num);
   }
+
   return (
-    <BrowserRouter basename='/myNewsApp'>
+    <BrowserRouter basename='/newstastic'>
       <Navbar />
       <LoadingBar
         color='red'
@@ -28,6 +29,7 @@ const App = () => {
         <Route exact path='/entertainment' element={<Appbody setProgress={setProgress} category={'entertainment'} key='Entertainment' heading='Entertainment' apiKey={process.env.REACT_APP_API_KEY} />} />
         <Route exact path='/' element={<Appbody setProgress={setProgress} category={''} key='Top-Headlines' heading='Top-Headlines' apiKey={process.env.REACT_APP_API_KEY} />} />
       </Routes>
+      <footer className=' bg-slate-700 text-white flex justify-center items-center h-14 font-myFont'><strong>Newstastic</strong>: A react project developed by <strong>&nbsp;Sumit Das</strong></footer>
     </BrowserRouter>
   )
 }

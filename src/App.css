@@ -22,14 +22,19 @@ body{
 .hoverUnderline:hover .newsItemText:nth-child(3){
   text-decoration: underline;
 }
-@media screen and (max-width:1000px){
+.active{
+  color:black;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+
+@media screen and (max-width:1100px){
   .hamBurgerList{
     display: flex;
     flex-direction: column;
     background: whitesmoke;
     margin:0;
     width: 100%;
-    
     box-shadow: 0px 20rem rgba(0, 0, 0, 0.299);
   }
   .hamBurgerList li:hover{
@@ -50,7 +55,7 @@ body{
     margin:1rem;
   }
   #navListHide{
-    transform: translateX(-1000px);
+    transform: translateX(-1100px);
   }
   #showMenuIcon{
     display: block;
@@ -60,4 +65,26 @@ body{
   .card{
     width:95vw;
   }
+}
+
+/* styling scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9f9f9f; 
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7f7f7f;
 }
