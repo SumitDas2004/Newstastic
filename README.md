@@ -25,6 +25,8 @@ Developing this project has benifited me in various way. i.e,
 5. Using 3rd party react components.
 6. Using tailwind css with React JS.
 7. Better understanding of of git and how to use git in real projects.
+8. Using environment variables in react.
+   
 
 
 Disclaimer: News API supports only localhost in development plan. Hence this project could not be hoseted in github pages.
