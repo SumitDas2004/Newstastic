@@ -1,5 +1,5 @@
 # Newstastic
-A react news app developed by Sumit Das
+A news app developed in react by Sumit Das
 
 Newstactic is a news app developed with the help of React JS, tailwind css, and News API.
 
