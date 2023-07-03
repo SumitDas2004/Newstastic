@@ -22,10 +22,9 @@ Developing this project has benifited me in various way. i.e,
 2. Component based architecture.
 3. Transforming class based components to function based components.
 4. React hooks.
-5. Using 3rd party react components.
-6. Using tailwind css with React JS.
-7. Better understanding of of git and how to use git in real projects.
-8. Using environment variables in react.
+5. Using tailwind css with React JS.
+6. Better understanding of of git and how to use git in real projects.
+7. Using environment variables in react.
    
 
 
