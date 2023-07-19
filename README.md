@@ -12,19 +12,6 @@ Features:
 5. Customized vertical scroll bar.
 6. Fetch latest news based on category.
 
-Learnings:
-
-Developing this project has benefited me in various way. i.e.
-
-1. Helped me to learn class based components in react.
-2. React Component based architecture.
-3. Transforming class based components to function based components.
-4. React hooks.
-3. Using tailwind CSS with React JS.
-4. Better understanding of of git and how to use git in real projects.
-5. Using environment variables in react.
-
-
 A demo video of the project. https://youtu.be/5DjUWbdQoZo
 
 Disclaimer: News API supports only localhost in development plan. Hence this project could not be hosted in GitHub pages.
